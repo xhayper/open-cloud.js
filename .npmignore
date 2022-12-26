@@ -1,0 +1,16 @@
+# Folder
+.vscode/
+.github/
+test/
+src/
+
+# File
+tsconfig.json
+.yarnrc.yml
+.prettierrc
+*.tgz
+
+# lockfile
+package-lock.json
+pnpm-lock.yaml
+yarn.lock

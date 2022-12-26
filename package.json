@@ -1,0 +1,27 @@
+{
+    "name": "open-cloud.js",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "repository": "github:xhayper/open-cloud.js",
+    "scripts": {
+        "build": "tsc",
+        "prepack": "rimraf dist && pnpm run build"
+    },
+    "keywords": [
+        "roblox",
+        "open-cloud",
+        "wrapper"
+    ],
+    "author": "xhayper",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.2.1"
+    },
+    "devDependencies": {
+        "@types/node": "^18.11.17",
+        "rimraf": "^3.0.2"
+    },
+    "packageManager": "pnpm@7.19.0"
+}
