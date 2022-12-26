@@ -51,6 +51,7 @@ const client = new Client({
             entryKey: "1"
         })
     );
+    // 750
     // Oh hey! Roblox still have 750 cash!
 
     console.log(await dataStoreInstance.listEntries());
